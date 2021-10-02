@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class StartButtonBehaviour : MonoBehaviour
+public class BackButtonBehaviour : MonoBehaviour
 {
-    public void OnStartButtonPressed()
+    public void OnBackButtonPressed()
     {
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Start");
     }
 }
